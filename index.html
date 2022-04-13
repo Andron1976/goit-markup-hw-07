@@ -21,33 +21,35 @@
     <header class="header">
       <div class="container">
         <nav class="nav">
-          <a href="./index.html" class="logotyp-head"
-            ><span class="logotyp-web">Web</span>Studio</a
+          <a href="./index.html" class="logo"
+            >Web<span class="logo--black">Studio</span></a
           >
-          <ul class="head-links list">
-            <li class="head-links-names">
-              <a href="index.html" class="head-names _selected">Студия</a>
+          <ul class="nav__items">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link nav__link--selected"
+                >Студия</a
+              >
             </li>
-            <li class="head-links-names">
-              <a href="./portfolio.html" class="head-names">Портфолио</a>
+            <li class="nav__item">
+              <a href="./portfolio.html" class="nav__link">Портфолио</a>
             </li>
-            <li class="head-links-names">
-              <a href="" class="head-names">Контакты</a>
+            <li class="nav__item">
+              <a href="" class="nav__link">Контакты</a>
             </li>
           </ul>
         </nav>
         <!--contact section-->
-        <ul class="head-contacts list">
-          <li class="head-contacts-elements">
-            <a href="mailto:info@devstudio.com" class="contact-head">
-              <svg class="contact-head-icon">
+        <ul class="contact">
+          <li class="contact__items">
+            <a href="mailto:info@devstudio.com" class="contact__item">
+              <svg class="contact__icon">
                 <use href="./images/sprite.svg#icon-envelopeok"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="head-contacts-elements">
-            <a href="tel:+380961111111" class="contact-head"
-              ><svg class="contact-head-icon">
+          <li class="contact__items">
+            <a href="tel:+380961111111" class="contact__item"
+              ><svg class="contact__icon">
                 <use href="./images/sprite.svg#icon-telok"></use></svg
               >+38 096 111 11 11</a
             >
@@ -59,18 +61,18 @@
     <main>
       <!--hero section-->
 
-      <section class="section hero">
-        <div class="hero-container">
-          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+      <section class="hero">
+        <div class="hero__box">
+          <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
 
-          <button type="button" class="hero-btn" data-modal-open>
+          <button type="button" class="hero__btn" data-modal-open>
             Заказать услугу
           </button>
         </div>
       </section>
 
       <!--successes section-->
-      <section class="section">
+      <section>
         <div class="container">
           <h2 class="hidden">Наши преимущества</h2>
           <ul class="successes-scroll list">
@@ -153,7 +155,7 @@
         </div>
       </section>
       <!--team section-->
-      <section class="section team-section">
+      <section class="team-section">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="team-links list">
@@ -382,9 +384,7 @@
     <footer class="footer">
       <div class="container footer-containers">
         <div class="footer-contacts">
-          <a href="" class="logotyp-footer"
-            ><span class="logotyp-web">Web</span>Studio</a
-          >
+          <a href="" class="logo">Web<span class="logo--white">Studio</span></a>
           <p class="address-footer">г. Киев, пр-т Леси Украинки, 26</p>
           <ul class="footer-contacts list">
             <li class="footer-mail-contact">
