@@ -72,54 +72,54 @@
       </section>
 
       <!--advertising section-->
-      <section class="advertising">
+      <section class="features">
         <div class="container">
           <h2 class="hidden">Наши преимущества</h2>
           <ul class="list">
-            <li class="advertising__card">
-              <div class="advertising__block">
-                <svg class="advertising__icon">
+            <li class="features__card">
+              <div class="features__box">
+                <svg class="features__icon">
                   <use href="./images/success.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="advertising__title">Внимание к деталям</h3>
-              <p class="advertising__text">
+              <h3 class="features__title">Внимание к деталям</h3>
+              <p class="features__text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="advertising__card">
-              <div class="advertising__block">
-                <svg class="advertising__icon">
+            <li class="features__card">
+              <div class="features__box">
+                <svg class="features__icon">
                   <use href="./images/success.svg#icon-clock-1"></use>
                 </svg>
               </div>
-              <h3 class="advertising__title">Пунктуальность</h3>
-              <p class="advertising__text">
+              <h3 class="features__title">Пунктуальность</h3>
+              <p class="features__text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="advertising__card">
-              <div class="advertising__block">
-                <svg class="advertising__icon">
+            <li class="features__card">
+              <div class="features__box">
+                <svg class="features__icon">
                   <use href="./images/success.svg#icon-diagram-1"></use>
                 </svg>
               </div>
-              <h3 class="advertising__title">Планирование</h3>
-              <p class="advertising__text">
+              <h3 class="features__title">Планирование</h3>
+              <p class="features__text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="advertising__card">
-              <div class="advertising__block">
-                <svg class="advertising__icon">
+            <li class="features__card">
+              <div class="features__box">
+                <svg class="features__icon">
                   <use href="./images/success.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="advertising__title">Современные технологии</h3>
-              <p class="advertising__text">
+              <h3 class="features__title">Современные технологии</h3>
+              <p class="features__text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -132,23 +132,23 @@
       <section>
         <div class="container">
           <h2>Чем мы занимаемся</h2>
-          <ul class="gallery">
-            <li class="gallery__pisc">
+          <ul class="promo">
+            <li class="promo__pisc">
               <img src="images/laptop.jpg" alt="laptop" width="370" />
-              <div class="gallery__content">
-                <p class="gallery__text">Десктопные приложения</p>
+              <div class="promo__content">
+                <p class="promo__text">Десктопные приложения</p>
               </div>
             </li>
-            <li class="gallery__pisc">
+            <li class="promo__pisc">
               <img src="images/phones.jpg" alt="phones" width="370" />
-              <div class="gallery__content">
-                <p class="gallery__text">Мобильные приложения</p>
+              <div class="promo__content">
+                <p class="promo__text">Мобильные приложения</p>
               </div>
             </li>
-            <li class="gallery__pisc">
+            <li class="promo__pisc">
               <img src="images/mozaika.jpg" alt="mozaika" width="370" />
-              <div class="gallery__content">
-                <p class="gallery__text">Дизайнерские решения</p>
+              <div class="promo__content">
+                <p class="promo__text">Дизайнерские решения</p>
               </div>
             </li>
           </ul>
@@ -383,7 +383,7 @@
     </main>
 
     <footer class="footer">
-      <div class="footer__block container">
+      <div class="footer__box container">
         <div class="footer__contacts">
           <a href="" class="logo">Web<span class="logo--white">Studio</span></a>
           <p class="footer__address">г. Киев, пр-т Леси Украинки, 26</p>
@@ -430,20 +430,20 @@
             </li>
           </ul>
         </div>
-        <div class="footer-form">
+        <div class="footer__form">
           <h3 class="footer__title">Подпишитесь на рассылку</h3>
-          <form class="footer-subskription">
+          <form class="footer__registration">
             <label for="subs"></label>
             <input
               type="text"
-              class="subskription-input"
+              class="footer__input"
               name="subs"
               id="subs"
               placeholder="E-mail"
             />
-            <button class="subskription-button" type="submit">
+            <button class="footer__button" type="submit">
               Подписаться
-              <svg class="subskription-item">
+              <svg class="footer__pic">
                 <use href="./images/lesson6.svg#icon-icon-send"></use>
               </svg>
             </button>
@@ -453,54 +453,52 @@
     </footer>
 
     <!--modal window-->
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop backdrop--hidden" data-modal>
       <div class="modal">
-        <div class="modal-close" data-modal-close=""></div>
-        <div class="modal-form">
-          <p class="title-modal-form">
-            Оставьте свои данные, мы вам перезвоним
-          </p>
-          <form class="speaker-form">
-            <label class="speaker-label" for="name">Имя</label>
-            <div class="speaker-box">
+        <div class="modal__close" data-modal-close=""></div>
+        <div class="modal__box">
+          <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
+          <form class="modal__form">
+            <label class="modal__label" for="name">Имя</label>
+            <div class="modal__aside">
               <input
-                class="speaker-input"
+                class="modal__input"
                 type="text"
                 name="name"
                 id="name"
                 placeholder=" "
               />
-              <svg class="speaker-item">
+              <svg class="modal__icon">
                 <use href="./images/lesson6.svg#icon-person-black"></use>
               </svg>
             </div>
-            <label class="speaker-label" for="tel">Телефон</label>
-            <div class="speaker-box">
+            <label class="modal__label" for="tel">Телефон</label>
+            <div class="modal__aside">
               <input
-                class="speaker-input"
+                class="modal__input"
                 type="tel"
                 name="tel"
                 id="tel"
                 placeholder=" "
-              /><svg class="speaker-item">
+              /><svg class="modal__icon">
                 <use href="./images/lesson6.svg#icon-phone-black"></use>
               </svg>
             </div>
-            <label class="speaker-label" for="mail">Почта</label>
-            <div class="speaker-box">
+            <label class="modal__label" for="mail">Почта</label>
+            <div class="modal__aside">
               <input
-                class="speaker-input"
+                class="modal__input"
                 type="email"
                 name="mail"
                 id="mail"
                 placeholder=" "
-              /><svg class="speaker-item">
+              /><svg class="modal__icon">
                 <use href="./images/lesson6.svg#icon-email-black"></use>
               </svg>
             </div>
-            <label class="speaker-label" for="comment">Комментарии</label>
+            <label class="modal__label" for="comment">Комментарии</label>
             <textarea
-              class="speaker-input speaker-textarea"
+              class="modal__input modal__textarea"
               type="email"
               name="comment"
               id="comment"
@@ -508,22 +506,22 @@
               rows="5"
               placeholder="Введите текст заявки"
             ></textarea>
-            <label class="speaker-label-checkbox" for="check">
+            <label class="modal__checkbox" for="check">
               <input
-                class="speaker-input-checkbox"
+                class="modal__checkbox--active"
                 type="checkbox"
                 name="checkbox"
                 id="check"
               />
-              <span class="checkbox-checkmart">
-                <svg class="checkbox-item">
+              <span class="modal__checkmart">
+                <svg class="modal__pic">
                   <use href="./images/lesson6.svg#icon-Vector-15"></use>
                 </svg>
               </span>
               Соглашаюсь с рассылкой и принимаю
-              <a class="checkbox-link" href="#">Условия договора</a>
+              <a class="modal__except" href="#">Условия договора</a>
             </label>
-            <button class="speaker-btn" type="submit">Отправить</button>
+            <button class="modal__btn" type="submit">Отправить</button>
           </form>
         </div>
       </div>
