@@ -1,9 +1,8 @@
-@import './mixins';
-@import './utils/variables';
-@import './reset';
-@import './common';
-@import './components/components.scss';
-@import './sections/header';
+@import 'reset';
+@import 'variables';
+@import 'common';
+@import './components/components';
+@import './sections/section';
 
 
 
