@@ -1,0 +1,11 @@
+.header {
+    background-color: $accent-color;
+    border-bottom: 1px solid #ececec;
+    padding: 25px 0;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    line-height: 16px;
+}
