@@ -147,7 +147,7 @@ h3 {
 }  */
 
 /* hero */
-.hero {
+/* .hero {
   background-color: var(--accent-bg-color);
   display: flex;
   justify-content: center;
@@ -175,8 +175,9 @@ h3 {
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
-}
-.hero__btn {
+  text-align: center;
+}  */
+/* .button {
   color: var(--accent-color);
   background-color: var(--specific-color);
   font-weight: 700;
@@ -188,12 +189,12 @@ h3 {
   padding: 10px 32px;
   border: none;
   border-radius: 4px;
-}
+}  */
 
 /* sections */
 
 /*advertising section*/
-
+/* 
 .features__card {
   width: 270px;
   height: 120px;
@@ -227,10 +228,10 @@ h3 {
   margin-top: 0px;
   margin-bottom: 0px;
   height: 75px;
-}
+} */
 
 /*promo-section*/
-.promo {
+/* .promo {
   margin-top: 0px;
   margin-bottom: 0px;
   display: flex;
@@ -259,10 +260,10 @@ h3 {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--accent-color);
-}
+} */
 
 /*team-section*/
-.section--background {
+/* .section--background {
   background-color: var(--specific-bg-color);
 }
 .team {
@@ -300,9 +301,9 @@ h3 {
   line-height: 1.19;
   text-align: center;
   margin-bottom: 16px;
-}
-
-.clients {
+} */
+/*clients-section*/
+/* .clients {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -334,7 +335,7 @@ h3 {
 .clients__item:hover .clients__icon,
 .clients__item:focus .clients__icon {
   fill: var(--specific-color);
-}
+} */
 
 /* portfolio */
 
@@ -498,7 +499,7 @@ h3 {
   color: var(--accent-color);
 }
   
-.socials {
+/* .socials {
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -532,7 +533,7 @@ h3 {
 .socials__link:hover .socials__icon--gray,
 .socials__link:focus .socials__icon--gray {
   fill: var(--accent-color);
-}
+} */
 /*subskription-box*/
 .footer__form {
   display: flex;
@@ -566,28 +567,18 @@ h3 {
 .footer__input:focus {
   border: 1px solid var(--specific-color);
 }
-.footer__button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  width: 200px;
-  height: 50px;
-  background-color: var(--specific-color);
-  color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
+/* .button--decorated {
+  position: relative;
 }
-.footer__pic {
+.button__pic {
+  position: absolute;
   width: 24px;
   height: 24px;
-  margin-left: 10px;
-}
+  right: 20px;
+  top: 12px;
+} */
 /*modal-window*/
-.backdrop {
+/* .backdrop {
   position: fixed;
   display: flex;
   justify-content: center;
@@ -614,8 +605,6 @@ h3 {
 .modal {
   position: relative;
   width: 528px;
-  height: 581px;
-  top: 60px;
   padding: 40px;
   background-color: #fff;
   border-radius: 4px;
@@ -668,7 +657,9 @@ h3 {
   margin-bottom: 12px;
   color: var(--title-text-color);
 }
-
+.modal__title {
+  margin-bottom: 12px;
+}
 .modal__form {
   display: flex;
   flex-direction: column;
@@ -739,7 +730,7 @@ h3 {
   user-select: none;
 }
 
-.modal__input--checkbox {
+.modal__checkbox--active {
   position: absolute;
   width: 0px;
   height: 0px;
@@ -766,30 +757,19 @@ h3 {
 }
 .modal__checkbox--active:checked ~ .modal__checkmart > .modal__except {
   fill: var(--accent-color);
-}
-.modal__btn {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  color: var(--accent-color);
-  background-color: var(--specific-color);
-  width: 200px;
-  height: 50px;
-  margin-right: auto;
-  margin-left: auto;
+} */
+/* .button--shaded {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__btn:focus {
+.button--shaded:focus {
   background-color: #188ce8;
-}
-
+} */
+/* 
 .modal__input:focus {
   border: 1px solid var(--specific-color);
 }
 .modal__input:focus ~ .modal__icon {
   fill: var(--specific-color);
-}
+} */

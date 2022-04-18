@@ -30,10 +30,10 @@
     background-color: $specific-color;
     border-radius: 2px;
 }
-}
 
 
-.nav__link:hover,
-.nav__link:focus {
+
+    &:hover,
+    &:focus {
     color: $specific-color;
-}
+}}

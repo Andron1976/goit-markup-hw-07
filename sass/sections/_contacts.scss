@@ -17,18 +17,17 @@
     line-height: 16px;
     text-decoration: none;
     margin-left: 30px;
-    display: flex;
-    align-items: center;
+    @include flex-center;
     transition: color $transition
         fill $transition;
-}
 
-.contacts__item:hover,
-.contacts__item:focus {
+
+    &:hover,
+    &:focus {
     color: $specific-color;
 }
 
-.contacts__item:hover .contacts__icon,
-.contacts__item:focus .contacts__icon {
+    &:hover .contacts__icon,
+    &:focus .contacts__icon {
     fill: $specific-color;
-}
+}}
