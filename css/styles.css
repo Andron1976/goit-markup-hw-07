@@ -7,7 +7,7 @@
 *::after {
   box-sizing: border-box;
 } */
-
+/* 
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -17,7 +17,7 @@
   --primary-bg-color: #fff;
   --accent-bg-color: #2f303a;
   --specific-bg-color: #f5f4fa;
-}
+} */
 /* body {
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
@@ -410,7 +410,7 @@ h3 {
 } */
 
 /* footer */
-.footer {
+/* .footer {
   background: var(--accent-bg-color);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -454,7 +454,7 @@ h3 {
   color: var(--specific-color);
 }
 /*aside-box*/
-.footer__socials {
+/* .footer__socials {
   padding-top: 12px;
   margin-left: 70px;
 }
@@ -465,7 +465,7 @@ h3 {
   margin-bottom: 20px;
   text-transform: uppercase;
   color: var(--accent-color);
-}
+} */ 
   
 /* .socials {
   display: flex;
@@ -503,7 +503,7 @@ h3 {
   fill: var(--accent-color);
 } */
 /*subskription-box*/
-.footer__form {
+/* .footer__form {
   display: flex;
   flex-direction: column;
   padding: 12px 0 0;
@@ -534,7 +534,7 @@ h3 {
 }
 .footer__input:focus {
   border: 1px solid var(--specific-color);
-}
+} */
 /* .button--decorated {
   position: relative;
 }
