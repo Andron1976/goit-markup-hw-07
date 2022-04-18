@@ -65,7 +65,7 @@
 
 &:hover:before,
 &:hover:after {
-    background-color: var(--specific-color);
+    background-color: $specific-color;
 }}
 
 .modal__box {

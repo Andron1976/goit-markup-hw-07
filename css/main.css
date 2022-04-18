@@ -360,7 +360,7 @@ h3 {
 }
 
 .modal__close:hover:before, .modal__close:hover:after {
-  background-color: var(--specific-color);
+  background-color: #2196f3;
 }
 
 .modal__box {
