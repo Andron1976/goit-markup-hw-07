@@ -17,13 +17,11 @@
     &:focus {
     background-color: #188ce8;}}
 &--decorated {
-    position: relative;
+    @include flex-center;
 }}
 
 .button__pic {
-    position: absolute;
     width: 24px;
     height: 24px;
-    right: 20px;
-    top: 12px;
+    margin-left: 10px;
 }

@@ -16,8 +16,13 @@
         fill $transition;
 
     &:hover {
-    background-color: $specific-color ;
-}}
+    background-color: $specific-color ;}
+
+    &:hover .socials__icon--gray,
+    &:focus .socials__icon--gray {
+        fill: $accent-color;
+    }
+}
 
 .socials__icon {
     width: 20px;
@@ -30,7 +35,3 @@
     transition: fill $transition;
 }}
 
-.socials__link:hover .socials__icon--gray,
-.socials__link:focus .socials__icon--gray {
-    fill: $accent-color;
-}
